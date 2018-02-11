@@ -23,9 +23,9 @@ public class BuildTreeController {
 	 * @return 锟斤拷页
 	 */
 	@RequestMapping(value = "/test")
-	public String name() {
-
-		return "index2";
+	public void name() {
+System.out.println("jinlaile ");
+		//return "index";
 
 	}
 /**
